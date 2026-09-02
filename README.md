@@ -4,6 +4,18 @@
 
 A simple installer for Artix Linux. Supports OpenRC and dinit.
 
+## Credits & Attribution
+
+This project is based on the original artix-installer by Maxwell Anderson (Zaechus).
+
+**Original project:** https://github.com/Zaechus/artix-installer
+
+The original project and its source code are licensed under the GNU General Public License v3.0 (GPL-3.0).
+
+This version contains modifications and adjustments made for personal use. AI assistance was used to help understand, review, improve, and restructure parts of the installer.
+
+The original copyright notices and GPL license have been retained in the source files.
+
 ## Usage
 
 1. Boot into the Artix live disk (the login and password are both `artix`).
