@@ -29,9 +29,9 @@ In Connman, use: `agent on`, `scan wifi`, `services`, `connect wifi_NAME`, `quit
 
 3. Acquire the install scripts:
 ```
-curl -OL https://github.com/Zaechus/artix-installer/archive/v2.2.0.tar.gz
-tar xzf v2.2.0.tar.gz
-cd artix-installer-2.2.0
+git clone https://github.com/cryotux/artix-installer.git
+cd artix-installer
+
 ```
 4. Run `./install.sh`.
 5. When everything finishes, `poweroff`, remove the installation media, and boot into Artix. Post-installation networking is done with Connman.
